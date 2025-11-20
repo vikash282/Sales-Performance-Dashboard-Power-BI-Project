@@ -17,8 +17,7 @@ The goal of the dashboard is to provide deep insights into sales trends, custome
 
 ## Project Structure
 
-```text
-Sales_Dashboard_Project/
+Sales_performance/
 │
 ├── Dataset/
 │   ├── Orders.xlsx       (Cleaned Dataset)
@@ -28,12 +27,13 @@ Sales_Dashboard_Project/
 │   └── Order_report.pbix
 │
 ├── Documentation/
-│   └── Project_Report.pdf
+│   └── Data cleaning and prepration.pdf
 │
 └── Exports/
-    ├── Dashboard_Screenshot.png
-    └── Dashboard_PDF.pdf 
-🚀 Dashboard FeaturesA complete end-to-end BI project for sales analysis, insights, KPIs & reporting.
+    ├── Dashboard.pdf
+    
+    
+### Dashboard FeaturesA complete end-to-end BI project for sales analysis, insights, KPIs & reporting.
 1️⃣ Key Performance Indicators (KPIs)
 The dashboard displays the following metrics using DAX to provide a quick overview of business performance:
 Total SalesTotal Profit, Profit Margin (%), Total Quantity Sold, Average Discount (%)
@@ -43,7 +43,7 @@ Total SalesTotal Profit, Profit Margin (%), Total Quantity Sold, Average Discoun
 5️⃣ Top 10 Customers by SalesHorizontal bar chart showing the highest revenue-generating customers. This helps with: Customer segmentationLoyalty programsUpselling strategies
 6️⃣ Interactive SlicersAllows users to dynamically explore insights by filtering:Segment, CategoryRegion
 
-🧮 DAX Measures Used
+### DAX Measures Used
 Below are the specific DAX formulas used to calculate the metrics in this dashboard.
 Total Sales = SUM('Sheet1'[Sales])
 
@@ -55,7 +55,7 @@ Total Quantity = SUM('Sheet1'[Quantity])
 
 Average Discount = AVERAGE('Sheet1'[Discount])
 
-Time Intelligence Measures
+### Time Intelligence Measures
 /* Date Table Creation */
 DateTable = CALENDAR(MIN('Sheet1'[Order Date]), MAX('Sheet1'[Order Date]))
 
@@ -81,7 +81,7 @@ Profit                 Profit amount
 Quantity               Units sold
 Discount               Discount applied
 
-How to Run the Dashboard
+*** How to Run the Dashboard
 Download the .pbix file from the PowerBI_File/ folder.
 
 Open Power BI Desktop.
