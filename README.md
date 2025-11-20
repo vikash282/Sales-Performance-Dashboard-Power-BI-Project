@@ -9,7 +9,22 @@ Compare category performance
 Analyze high/low performing regions
 Monitor KPIs like Profit Margin, Discount %, Quantity sold
 Make data-driven decisions quickly
-
+Sales_Dashboard_Project/
+│
+├── Dataset/
+│   └── Orders.xlsx  (Cleaned Dataset)
+    |__ Orders full.xlsx (Original Dataset)
+│
+├── PowerBI_File/
+│   └── Order_report.pbix
+│
+├── Documentation/
+│   ├── Project_Report.pdf
+│
+├── Exports/
+│   ├── Dashboard_Screenshot.png
+│   └── Dashboard_PDF.pdf
+│
 ⭐ Dashboard Features
 A complete end-to-end BI project for sales analysis, insights, KPIs &amp; reporting.
 Dashboard Features
