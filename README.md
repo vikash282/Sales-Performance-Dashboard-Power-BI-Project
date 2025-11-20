@@ -16,7 +16,7 @@ The goal of the dashboard is to provide deep insights into sales trends, custome
 ---
 
 ## Project Structure
-
+```text
 Sales_performance/
 │
 ├── Dataset/
@@ -31,7 +31,7 @@ Sales_performance/
 │
 └── Exports/
     ├── Dashboard.pdf
-    
+```
     
 ### Dashboard FeaturesA complete end-to-end BI project for sales analysis, insights, KPIs & reporting.
 1️⃣ Key Performance Indicators (KPIs)
